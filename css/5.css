@@ -1,0 +1,178 @@
+*{  margin: 0;  padding: 0;  }
+body{  font-family: 'Microsoft YaHei','5FAE\8F6F\96C5\9ED1','微软雅黑' ; background: #ddd;}
+
+/*对导航部分的样式*/
+.nav {
+    background: #333333;
+    color: #fff;
+    padding: 15px;
+    width: 100%;
+    display: inline-block;
+}
+.nav .nav-brand{
+    display: inline-block;
+}
+.nav .navbar{
+    float: right;
+    padding: 5px;
+    margin-right: 10px;
+}
+.nav .navbar li{
+    display: inline-block;
+    padding: 10px;
+}
+header li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+/*对文章部分的样式*/
+article{
+    padding: 20px;
+    margin: 20px;
+    background: #fff;
+    box-shadow: 5px 5px 2px #888888;
+    width: calc(100% - 570px);
+    -webkit-transition: all 0.3s linear;
+}
+article h2:nth-child(1){
+    padding: 10px 0;
+}
+
+article h2:nth-child(2){
+    font-size: 20px;
+    padding: 15px 0;
+}
+
+article h3{
+    font-size: 10px;
+    padding: 5px 0;
+}
+
+article p {
+    text-indent:2em;   /*缩进两个相对单位*/
+    padding: 5px;
+    line-height: 27px;
+    font-size: 15px;
+}
+
+article a{
+    font-size: 14px;
+}
+
+article li{
+    list-style: none;
+    padding: 5px;
+    width: 120px;
+    text-align: center;
+}
+article ul{
+    padding: 20px;
+}
+
+article ul img{
+    width: 100px;
+    height: 80px;
+}
+
+article ul p{
+    text-indent:0;
+}
+#img-description li{
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+article table{
+    width: 100%;
+    border-collapse: collapse;                       /*此处没有想到*/
+}
+article th, td{
+    border: 1px solid #ccc;
+    text-align: left;
+    padding: 5px 10px;
+}
+article table thead{
+    background: #000;
+    color: #fff;
+}
+
+article table tfoot{
+    background-color: #ddd;
+}
+
+
+/*对侧栏部分的样式*/
+aside{
+    padding: 20px;
+    margin: 20px;
+    background: #fff;
+    box-shadow: 5px 5px 2px #888888;
+    float: right;
+    width: 430px;
+    -webkit-transition: all 0.3s linear;
+}
+
+aside button{
+    display: block;
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    background-color: #3355D0;
+    color: #fff;
+    font-size: 15px;
+}
+aside p{
+    padding: 10px;
+}
+
+aside .sidebar_title {
+    border-left: 5px solid #ccc;
+    padding: 10px;
+    font-size: 20px;
+}
+
+aside .form_info{
+    margin: auto;
+}
+
+aside .form_info .text_field{
+    margin-top: 20px;
+    overflow: auto;                             /* 很重要的一个属性*/
+}
+aside .form_info .form_group{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+aside .form_info .form_group .group_name{
+    text-align: right;
+    width: 35%;
+    display: inline-block;
+}
+
+.form_info .form_group .group_value, .form_info .text_field p{
+    width: 150px;
+    display: inline-block;
+}
+
+aside .form_info .text_field .tip{
+    text-align: left;
+    width: 62%;
+    float: right;
+    color: #ccc;
+}
+
+aside .form_info  textarea{
+    height: 100px;
+    width: 150px;
+    vertical-align: top;               /*此处没有想到*/
+}
+
+footer{
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
