@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        .enter{
+            display: inline-block;
+        }
+        .leave{
+            display: inline-block;
+            margin-left: 50px;
+        }
+        .item{
+            width: 50px;
+            height: 50px;
+            background-color: #ff0000;
+            float: left;
+            margin: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="number-handle">
+            <input class="number-input">
+            <div class="enter">
+                <button class="enter-left">左侧入</button>
+                <button class="enter-right">右侧入</button>
+            </div>
+            <div class="leave">
+                <button class="leave-left">左侧出</button>
+                <button class="leave-right">右侧出</button>
+            </div>
+        </div>
+        <div id="content">
+
+        </div>
+    </div>
+    <script src="js/task18.js"></script>
+</body>
+</html>

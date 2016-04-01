@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        .enter{
+            display: inline-block;
+        }
+        .leave{
+            display: inline-block;
+            margin-left: 50px;
+        }
+        .item{
+            width: 25px;
+            float: left;
+            position: absolute;
+            bottom: 0;
+        }
+        #content{
+            margin-top: 30px;
+            overflow: auto;
+            position: relative;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="number-handle">
+            <input class="number-input">
+            <div class="enter">
+                <button class="enter-left">左侧入</button>
+                <button class="enter-right">右侧入</button>
+            </div>
+            <div class="leave">
+                <button class="leave-left">左侧出</button>
+                <button class="leave-right">右侧出</button>
+                <button class="sort">排序</button>
+            </div>
+        </div>
+        <div id="content">
+
+        </div>
+    </div>
+    <script src="js/task19.js"></script>
+</body>
+</html>
